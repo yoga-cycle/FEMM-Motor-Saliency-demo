@@ -1,5 +1,5 @@
 # FEMM-Motor-Saliency-demo
-FEMM simulation that shows the saliency present in I-PMSM (Interior Permanent Magnet Synchronous Motor).
+FEMM simulation that shows the saliency present in I-PMSM (Interior Permanent Magnet Synchronous Motor). This page contatins supporting files for the blog post on [High-Frequency-Injection](https://y-cyc-esc.com/motor-control-basics/2024/04/05/high-frequency-injection-for-sensorless-zero-speed-torque.html).
 
 In this project, FEMM is used to demonstrate the saliency present in I-PMSM. Saliency is observed by estimating the inductance as seen by a phase winding at different rotor positions. We estimate the inductance by first measuring the flux through the winding with no current in the winding. This flux is due to the magnet. Then, some current is passed through the winding and the flux is measured again. The difference in the flux measured divided by the current is an approximation for the inductance.
 
