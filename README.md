@@ -11,8 +11,8 @@ Saliency in motors allow the motor controller to operate without sensors even at
 
 To run the demo, 
 - download the resources folder.
-- Open HFI.FEM
-- Click on File->Open Lua Script. Select the inductance.lua
+- Open HFI.fem with the FEMM software. (You can drag-and-drop the file to FEMM too)
+- Click on File->Open Lua Script. Select inductance.lua
 - The simulation starts running and the inductance measured vs rotor angles are diplayed on the console
 
 Values obtained in the console are plotted with MS Excel
